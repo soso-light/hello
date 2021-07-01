@@ -24,7 +24,9 @@ public class MainActivity2 extends AppCompatActivity {
         //나이 가져오기
         int age = Integer.parseInt(et.getText().toString());
         //나이를 생년으로
+        int iage = 2021 - age;
         //나이를 토스트로 띄우기
+        Toast.makeText(this, iage+ "", Toast.LENGTH_SHORT).show();
     }
 
     public void onY(View view) {
