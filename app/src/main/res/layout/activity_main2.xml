@@ -15,7 +15,7 @@
         android:text="태어난 연도를 입력하세요." />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/etYear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -24,6 +24,7 @@
 
     <Button
         android:id="@+id/button2"
+        android:onClick="onY"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button" />
@@ -35,7 +36,7 @@
         android:text="나이를 입력하세요" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etAge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -46,5 +47,6 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onA"
         android:text="Button" />
 </LinearLayout>
