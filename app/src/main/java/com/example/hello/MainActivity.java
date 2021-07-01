@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onCountClick(View view){
         //메박 띄우기 ++ , textview에 보이기
-        //Toast.makeText(this, "hello Count..", Toast.LENGTH_SHORT).show();
+        //text에서 불러오기!
+        //count = Integer.parseInt(textView.getText().toString());
         count++;
         textView.setText(count + "");
     }
-
 }
